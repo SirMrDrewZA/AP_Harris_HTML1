@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="animated fadeIn">
+<head>
+  <title>Leoneck Swiss Hotel</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+ 
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+
+
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+  
+
+</div>
+  <nav>
+    <div><img src="logo.png"></div>
+    <div>
+      <div class="table">
+        <ul id="list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="content.html">Rooms</a>
+          </li>
+          <li>
+            <a href="lounge.html">Lounge</a>
+          </li>
+          <li>
+            <a href="specials.html">Specials</a>
+          </li>
+          <li>
+            <a href="service.html">Service</a>
+          </li>
+          <li>
+            <a href="review.html">Review</a>
+          </li>
+          <li>
+            <a href="contactus.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo4.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo1.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo3.png" style="width:100%">
+    <div class="text"></div>
+  </div><br>
+  <div style="text-align:center">
+    <span class="dot"></span> <span class="dot"></span> <span class="dot"></span>
+  </div>
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+  }
+  </script> <b></b>
+  <h2><b>Leoneck Swiss Hotel</b></h2>
+  <section>
+    <p class="grey">The Leoneck Swiss Hotel is decorated in a fancy ethnic design and is located at a prime location in the center of Zurich. A 6-minute walk from the train station, the Bahnhofstrasse, the banking district, the University and the Swiss Federal Institute of Technology and the major hospitals. Leoneck Swiss Hotel has 82 modern non-smoking rooms, all equipped with bath and shower. Internet is available free of charge throughout the hotel and the rooms are all furnished with air conditioning and a tablet PC. The restaurant 8001 named after the local postal code stands for modern Swissness. You can choose from our All American breakfast buffet, enjoy a varied business lunch, coffee and cake during the afternoon or savor our Swiss Tapas in the evening before an uncomplicated dinner with a delicious glass of wine.</p>
+  </section>
+  <h3>The Alpine Suit</h3><img class="yellow" src="img/alpine1.png">
+  <p class="blue">Individual design with artworks by Gerry Hofstetter - light artist, complimentary WIFI, air conditioning, free phone calls to Switzerland, Europe and 8 other countries, bluetooth connection for your own playlists, soundproofed windows, coffee and tea making facilities, rain shower, heated towel rack and parquet.</p>
+  <h4>Our Location</h4>
+  <div>
+    <iframe allowfullscreen frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21614.370290607363!2d8.562381422351079!3d47.376894322912065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7916cc140a280f0b!2sLeoneck+Swiss+Hotel!5e0!3m2!1sen!2sza!4v1529504224254" style="border:0" width="100%"></iframe>
+    <form action="/action_page.php">
+      <div class="container">
+        <form action="/action_page.php">
+    <div class="container">
+      <h6>Subscribe to our Newsletter</h6>
+      <p class="orangez">Please feel free to subscribe to our weekly newsletter regarding updates and possible specials.</p>
+    </div>
+    <div class="container" style="background-color:white">
+      <input name="name" placeholder="Name and Surname" required="" type="text"> <input name="mail" placeholder="Email address" required="" type="text">
+    </div>
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</body>  
+<footer>
+
+
+<form action="/action_page.php">
+  <div class="container">
+   
+ <img src="logo.png" class="pink">
+ <ul class="bro">
+   <a href="https://www.facebook.com/LeoneckHotel" class="fa fa-facebook"></a>
+   <a href="https://twitter.com/LeoneckHotel" class="fa fa-twitter"></a>
+   <a href="https://www.instagram.com/explore/locations/3122023/leoneck-swiss-hotel/?hl=en" class="fa fa-instagram"></a>
+   <a href="https://www.youtube.com/user/LeoneckHotel" class="fa fa-youtube"></a>
+ </ul>
+</footer>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="animated fadeIn">
+<head>
+  <title>Leoneck Swiss Hotel</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+
+
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+  <nav>
+    <div><img src="logo.png"></div>
+    <div>
+      <div class="table">
+        <ul id="list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Rooms</a>
+          </li>
+          <li>
+            <a href="lounge.html">Lounge</a>
+          </li>
+          <li>
+            <a href="specials.html">Specials</a>
+          </li>
+          <li>
+            <a href="service.html">Service</a>
+          </li>
+          <li>
+            <a href="review.html">Review</a>
+          </li>
+          <li>
+            <a href="contactus.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo1.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo3.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div><img src="img/photo4.png" style="width:100%">
+    <div class="text"></div>
+  </div><br>
+  <div style="text-align:center">
+    <div style="padding-bottom:27px">
+      <span class="dot"></span> <span class="dot"></span> <span class="dot"></span>
+    </div>
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script> <b><label class="Rooms">Rooms</label></b>
+    <p class="hello">The Leoneck Swiss Hotel is decorated in a fancy ethnic design. Our modern 81 non-smoking rooms have air-conditioning and are all equipped with bath or shower. The soundproofed windows, allow you a good night sleep and leave the sound of the city outside, even in this central location. The rooms also have a kettle with tea and coffee selection. More recently we equipped all our rooms with a tablet PCs that will help you to learn more about the hotel and to experience the city and Switzerland. In our spacious Premium category, the Comfort Double Room, you will additionally receive a fruit basket and an iron and ironing board. You are also entitled to benefit from our complimentary late check out until 2pm.</p>
+    <p style="text-align: center;"><b>PLEASE TAKE NOTE OF THE FOLLOWING TAGS</b></p>
+    <p style="text-align: center;">CA1 - Classic room A1</p>
+    <p style="text-align: center;">COA1 - Comfort room A1</p>
+    <p class="neon" style="text-align: center;">ACA1 - Alpine comfort room A1</p>
+    <div class="polaroid">
+      <img alt="5 Terre" src="img/1.jpg" style="width:100%">
+      <div class="container">
+        <p>Single Room CA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="Norther Lights" src="img/2.jpg" style="width:100%">
+      <div class="container">
+        <p>Double Room CA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="5 Terre" src="img/3.jpg" style="width:100%">
+      <div class="container">
+        <p>Single Room COA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="Norther Lights" src="img/4.jpg" style="width:100%">
+      <div class="container">
+        <p>Double Room COA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="5 Terre" src="img/5.jpg" style="width:100%">
+      <div class="container">
+        <p>Triple Room CA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="Norther Lights" src="img/6.jpg" style="width:100%">
+      <div class="container">
+        <p>Single Room ACA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="5 Terre" src="img/7.jpg" style="width:100%">
+      <div class="container">
+        <p>Double Room ACA1</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img alt="Norther Lights" src="img/8.jpg" style="width:100%">
+      <div class="container">
+        <p>Main Suite ACA1</p>
+      </div>
+    </div>
+    <div>
+      <b><label>Each room includes</label></b>
+      <p class="soda">Complimentary Wifi and High Speed Internet, Complimentary phone calls within Switzerland, Tablet PC, individuel adjustable AC, Soundproofed windows, Rooms with balcony, Coffee mashine, Minibar with two complimentary waters, Flat-screen TV (HD), Large desk, In room safe, Bath/shower, WC and Hairdryer Slippers and Bathroom amenities</p>
+    </div>
+    <form action="/action_page.php">
+    <div class="container">
+      <h6>Subscribe to our Newsletter</h6>
+      <p class="orangez">Please feel free to subscribe to our weekly newsletter regarding updates and possible specials.</p>
+    </div>
+    <div class="container" style="background-color:white">
+      <input name="name" placeholder="Name and Surname" required="" type="text"> <input name="mail" placeholder="Email address" required="" type="text">
+    </div>
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</body>  
+<footer>
+
+
+<form action="/action_page.php">
+  <div class="container">
+   
+ <img src="logo.png" class="pink">
+ <ul class="bro">
+   <a href="https://www.facebook.com/LeoneckHotel" class="fa fa-facebook"></a>
+   <a href="https://twitter.com/LeoneckHotel" class="fa fa-twitter"></a>
+   <a href="https://www.instagram.com/explore/locations/3122023/leoneck-swiss-hotel/?hl=en" class="fa fa-instagram"></a>
+   <a href="https://www.youtube.com/user/LeoneckHotel" class="fa fa-youtube"></a>
+ </ul>
+</footer>
+
+</html>
